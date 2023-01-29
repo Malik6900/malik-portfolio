@@ -8,7 +8,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import { Seo } from "../components/seo"
 
-import '../js/scripts'
+//import '../js/scripts'
 
 {/* <Helmet>
     <script src={withPrefix('../js/scripts.js')} type="text/javascript" />
