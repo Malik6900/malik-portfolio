@@ -1,18 +1,18 @@
 import * as React from "react"
-import { Link } from "gatsby"
-//import { withPrefix, Link } from "gatsby"
+//import { Link } from "gatsby"
+import { withPrefix, Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
-//import Helmet from "react-helmet"
+import Helmet from "react-helmet"
 
 import Layout from "../components/layout"
 import { Seo } from "../components/seo"
 
 //import '../js/scripts'
 
-{/* <Helmet>
+<Helmet>
     <script src={withPrefix('../js/scripts.js')} type="text/javascript" />
-</Helmet> */}
+</Helmet>
 
 
 
