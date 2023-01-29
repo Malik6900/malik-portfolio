@@ -9,6 +9,7 @@ const IndexPage = () => (
   <Layout>
     <section className="py-5 text-center container">
       <div className="row py-lg-5">
+      
         <div className="col-lg-6 col-md-8 mx-auto">
           <h1 className="fw-light">Hello world ! </h1>
           <p className="lead text-muted"> Welcome to this Boostrap 5 Gatsby Starter</p>
@@ -23,6 +24,19 @@ const IndexPage = () => (
 
         </div>
       </div>
+      <section className="container-fluid">
+        <div className="row">
+          <div className="col-lg-4">
+            1
+          </div>
+          <div className="col-lg-4">
+            2
+          </div>
+          <div className="col-lg-4">
+            3
+          </div>
+        </div>
+        </section>
       <div className="row">
         <Link to="/about/" className="btn btn-primary my-2">About</Link>
         <Link to="/page-2/" className="btn btn-secondary my-2">Go to page 2</Link>
