@@ -2,5 +2,8 @@
 $primary: #000000;
 @import "~bootstrap/scss/bootstrap";
 
-
-
+@media (min-width: 768px) {
+.navbar-expand-md .navbar-nav {
+    margin-top: 2px;
+}
+}

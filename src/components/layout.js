@@ -6,7 +6,6 @@ import Navbar from "./navbar"
 import "./layout.scss"
 
 import Carousel from "./carousel"
-import "./layout.css"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
